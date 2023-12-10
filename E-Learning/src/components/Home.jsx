@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <div className="wrapper">
-        <h1>Welcome Meaningful Learning platform!</h1>
+        <h1>Welcome to the Meaningful Learning platform!</h1>
         <h2>Empower Your Learning Journey</h2>
         <p>
           We are committed to providing a world-class online learning
@@ -13,7 +13,7 @@ function Home() {
           upskill, or someone passionate about continuous learning, we have a
           diverse range of courses to meet your needs.
         </p>
-        <h2>Why Choose Mindful Learning</h2>
+        <h2>Why Choose Meaningful Learning</h2>
         <ul>
           <li>
             Expert Instructors: Learn from industry experts and professionals

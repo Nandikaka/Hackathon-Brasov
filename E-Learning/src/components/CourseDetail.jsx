@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { data } from "../data";
+import { useState } from "react";
 
 function CourseDetail() {
   const downloadFileAtURL = (url) => {
@@ -15,6 +16,7 @@ function CourseDetail() {
   const selectedCourse = data.find((item) => item.id === id);
   console.log(selectedCourse);
   const url = selectedCourse.intro;
+
   return (
     <div className="wrapper">
       <h1>{selectedCourse.title}</h1>
@@ -32,7 +34,7 @@ function CourseDetail() {
           title="This is CS50"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
 
